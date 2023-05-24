@@ -23,3 +23,18 @@ O projeto foi elaborado durante as aulas de Egenharia de Software na PUC Minas, 
 * Leonardo Andrade Heldt
 * Maycon Brandão Bruzolato
 * Pedro Henrique Ronchini
+
+## Wiframes baseados nas historias
+### Autenticação do autor
+![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/de5b8546-1f25-4ec8-b81b-83cfd518697c)
+### Criação do board
+![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/62e34879-51e0-4bc6-a1c9-8ca24d4ea48e)
+### Criação do card
+![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/f7e54bc2-775f-40b7-88b3-52debba90974)
+### Criação da movimentção dos card's
+![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/6a238762-85b5-4156-8105-e741667014a7)
+### Edição do card
+![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/0d24fddf-0a10-44c3-b3fd-3fbbd500dc23)
+
+
+## Tabelas de pontos
