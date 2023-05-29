@@ -37,4 +37,33 @@ O projeto foi elaborado durante as aulas de Egenharia de Software na PUC Minas, 
 ![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/0d24fddf-0a10-44c3-b3fd-3fbbd500dc23)
 
 
-## Tabelas de pontos
+# Analise de pontos de função
+Consiste no meio para medição do tamanho de software em termos da visão do usuário final, para esse calculo é necessário os estudos de caso, diagrama de Classes e os relacionamentos.
+
+# Estudo de casos: Campos e Arquivos
+## Login 
+* email, senha [comando]
+* arquivo: Pessoa
+
+## Criar board
+
+## Excluir board
+
+## Criar Card
+
+## Mover Card
+
+## Excluir Card
+
+#Identificação e Classificação das Funcionalidades
+
+| Descrição | TIpo | TD | AR/TR | Complexidade |
+|----------:|-----:|:--:|:-----:|:------------:|
+|           |      |    |       |              |
+|           |      |    |       |              |
+|           |      |    |       |              |
+|           |      |    |       |              |
+|           |      |    |       |              |
+|           |      |    |       |              |
+|           |      |    |       |              |
+
