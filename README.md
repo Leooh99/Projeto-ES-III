@@ -42,38 +42,38 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 
 # Estudo de casos: Campos e Arquivos
 ## Login 
-* email, senha [comando]
+* email, senha, [comando]
 * Arquivo: Pessoa
 
 ## Criar board
-* 
-* Arquivo
+* nome da board, mensagens, [comando]
+* Arquivo: Board
 
 ## Excluir board
-*
-* Arquivo
+* nome da board, mensagens, [comando]
+* Arquivo: Board
 
 ## Criar Card
-* indicador de 
-* Arquivo
+* titulo card, nome da board, cor, data,[comando]   
+* Arquivo: Card
 
 ## Mover Card
-*
-* Arquivo
+* nome da board, nome da outra board, [comando]
+* Arquivo: Card
 
 ## Excluir Card
-*
-* Arquivo
+* nome da board, mensagens,[comando]
+* Arquivo: Card
 
 # Identificação e Classificação das Funcionalidades
 
-| Descrição | TIpo | TD | AR/TR | Complexidade |
-|----------:|-----:|:--:|:-----:|:------------:|
-| Pessoa    |      |    |       |              |
-| Login     |  SE  |    |       |              |
-| Criar B.  |      |    |       |              |
-| Excluir B.|      |    |       |              |             
-| Criar C.  |      |    |       |              |
-| Mover C.  |      |    |       |              |
-| Excluir C.|      |    |       |              |
+| Descrição  | Tipo | TD | AR/TR | Complexidade |
+|-----------:|-----:|:--:|:-----:|:------------:|
+| Pessoa     | AIE  |    |       | BAIXA        |
+| Login      | SE   |    |       | BAIXA        |
+| Criar B.   | EE   |    |       |              |
+| Excluir B. | CE   |    |       |              |             
+| Criar C.   | EE   |    |       |              |
+| Mover C.   | CE   |    |       |              |
+| Excluir C. | CE   |    |       |              |
 
