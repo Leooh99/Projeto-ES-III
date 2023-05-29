@@ -71,9 +71,9 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 |-----------:|-----:|:--:|:-----:|:------------:|
 | Pessoa     | AIE  |    |       | BAIXA        |
 | Login      | SE   |    |       | BAIXA        |
-| Criar B.   | EE   |    |       |              |
-| Excluir B. | CE   |    |       |              |             
-| Criar C.   | EE   |    |       |              |
-| Mover C.   | CE   |    |       |              |
-| Excluir C. | CE   |    |       |              |
+| Criar B.   | EE   |    |       | BAIXA        |
+| Excluir B. | CE   |    |       | BAIXA        |             
+| Criar C.   | EE   |    |       | MÉDIA        |
+| Mover C.   | CE   |    |       | MÉDIA        |
+| Excluir C. | CE   |    |       | BAIXA        |
 
