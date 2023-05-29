@@ -89,7 +89,7 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 
 # Testes de equivalência
 
-| Waiframe                          | Teste | Valor |
+| Wiframe                           | Teste | Valor |
 |:---------------------------------:|:-----:|:-----:|
 | Autenticação do autor             |       |       |
 | Criação do board                  |       |       |
