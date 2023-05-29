@@ -97,34 +97,34 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 | Criação da movimentação dos card's|           
 | Edição do card                    |
 
-* Autenticação do autor
-Entrada: email cadastrado |Senha: correta   -> Autenticado
-Entrada: email cadastrado |Senha: incorreta -> Negado
-Entrada: email n cadas... |Senha: n existe  -> Negado
+### Autenticação do autor
+* Entrada: email cadastrado |Senha: correta   -> Autenticado
+* Entrada: email cadastrado |Senha: incorreta -> Negado
+* Entrada: email n cadas... |Senha: n existe  -> Negado
 
-* Criação do board 
-Entrada: Nome board |Clica criar -> Cria board
-Entrada: Nome board |Clica X     -> Não cria board
-Entrada: Vazio      |Clica X     -> Não cria board
-Entrada: Vazio      |Clica criar -> Não cria board
+### Criação do board 
+* Entrada: Nome board |Clica criar -> Cria board
+* Entrada: Nome board |Clica X     -> Não cria board
+* Entrada: Vazio      |Clica X     -> Não cria board
+* Entrada: Vazio      |Clica criar -> Não cria board
 
-* Criação do card 
-Entrada: Nome card|Clica criar -> Cria card
-Entrada: Vazio    |Clica criar -> Não cria card
-Entrada: Vazio    |Clica no X  -> Não cria card
-Entrada Nome card |Clica no X  -> Não cria card 
+### Criação do card 
+* Entrada: Nome card|Clica criar -> Cria card
+* Entrada: Vazio    |Clica criar -> Não cria card
+* Entrada: Vazio    |Clica no X  -> Não cria card
+* Entrada Nome card |Clica no X  -> Não cria card 
 
-* Criação da movimentação dos card's
-Entrada: Pega card  | Joga card em outra board -> Movimenta card
-Entrada: Pega card  | Não movimenta o card     -> Não movimenta o card
-Entrada: N pega card| Movimenta                -> Não movimenta o card
-Entrada: Pega card  | Joga card na mesma board -> Não moviemnta o card
+### Criação da movimentação dos card's
+* Entrada: Pega card  | Joga card em outra board -> Movimenta card
+* Entrada: Pega card  | Não movimenta o card     -> Não movimenta o card
+* Entrada: N pega card| Movimenta                -> Não movimenta o card
+* Entrada: Pega card  | Joga card na mesma board -> Não moviemnta o card
 
-* Edição do card
-titulo muda  | muda   descrição | muda label | muda task | salvar -> Card editado
-titulo N muda| muda   descrição | muda label | muda task | salvar -> Card editado
-titulo N muda| muda N descrição | muda label | muda task | salvar -> Card editado
-.....
-..... 
-.....
-* Tudo edita um card, se for clicado em salvar 
+### Edição do card
+* Entrada: titulo muda  | muda   descrição | muda label | muda task | salvar -> Card editado
+* Entrada: titulo N muda| muda   descrição | muda label | muda task | salvar -> Card editado
+* Entrada: titulo N muda| muda N descrição | muda label | muda task | salvar -> Card editado
+* Entrada: .....
+* Entrada: ..... 
+* Entrada: .....
+* Tudo edita um card, se for clicado em salvar.
