@@ -24,44 +24,44 @@ O projeto foi elaborado durante as aulas de Egenharia de Software na PUC Minas, 
 * Maycon Brandão Bruzolato
 * Pedro Henrique Ronchini
 
-## Wiframes baseados nas historias
-### Autenticação do autor
+# Wiframes baseados nas historias
+## Autenticação do autor
 ![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/de5b8546-1f25-4ec8-b81b-83cfd518697c)
-### Criação do board
+## Criação do board
 ![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/62e34879-51e0-4bc6-a1c9-8ca24d4ea48e)
-### Criação do card
+## Criação do card
 ![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/f7e54bc2-775f-40b7-88b3-52debba90974)
-### Criação da movimentção dos card's
+## Criação da movimentção dos card's
 ![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/6a238762-85b5-4156-8105-e741667014a7)
-### Edição do card
+## Edição do card
 ![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/0d24fddf-0a10-44c3-b3fd-3fbbd500dc23)
 
 
 # Analise de pontos de função
 Consiste no meio para medição do tamanho de software em termos da visão do usuário final, para esse calculo é necessário os estudos de caso, diagrama de Classes e os relacionamentos.
 
-# Estudo de casos: Campos e Arquivos
-## Login 
+# Estudo de casos: campos e arquivos
+### Login 
 * email, senha, [comando]
 * Arquivo: Pessoa
 
-## Criar board
+### Criar board
 * nome da board, mensagens, [comando]
 * Arquivo: Board
 
-## Excluir board
+### Excluir board
 * nome da board, mensagens, [comando]
 * Arquivo: Board
 
-## Criar Card
+### Criar Card
 * titulo card, nome da board, cor, data,[comando]   
 * Arquivo: Card
 
-## Mover Card
+### Mover Card
 * nome da board, nome da outra board, [comando]
 * Arquivo: Card
 
-## Excluir Card
+### Excluir Card
 * nome da board, mensagens,[comando]
 * Arquivo: Card
 
