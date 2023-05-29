@@ -43,27 +43,37 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 # Estudo de casos: Campos e Arquivos
 ## Login 
 * email, senha [comando]
-* arquivo: Pessoa
+* Arquivo: Pessoa
 
 ## Criar board
+* 
+* Arquivo
 
 ## Excluir board
+*
+* Arquivo
 
 ## Criar Card
+* indicador de 
+* Arquivo
 
 ## Mover Card
+*
+* Arquivo
 
 ## Excluir Card
+*
+* Arquivo
 
-#Identificação e Classificação das Funcionalidades
+# Identificação e Classificação das Funcionalidades
 
 | Descrição | TIpo | TD | AR/TR | Complexidade |
 |----------:|-----:|:--:|:-----:|:------------:|
-|           |      |    |       |              |
-|           |      |    |       |              |
-|           |      |    |       |              |
-|           |      |    |       |              |
-|           |      |    |       |              |
-|           |      |    |       |              |
-|           |      |    |       |              |
+| Pessoa    |      |    |       |              |
+| Login     |  SE  |    |       |              |
+| Criar B.  |      |    |       |              |
+| Excluir B.|      |    |       |              |             
+| Criar C.  |      |    |       |              |
+| Mover C.  |      |    |       |              |
+| Excluir C.|      |    |       |              |
 
