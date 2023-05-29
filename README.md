@@ -68,7 +68,7 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 # Identificação e Classificação das Funcionalidades
 
 | Descrição  | Tipo | TD | AR/TR | Complexidade |
-|-----------:|-----:|:--:|:-----:|:------------:|
+|-----------:|:----:|:--:|:-----:|:------------:|
 | Pessoa     | AIE  |    |       | BAIXA        |
 | Login      | SE   |    |       | BAIXA        |
 | Criar B.   | EE   |    |       | BAIXA        |
@@ -80,7 +80,7 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 # Classes de dominio
 
 | Nome da Classe | Descrição                                                           | História                                                                                                          |
-|---------------:|--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
+|---------------:|:--------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|
 | Criar board    |Criação da board que acomoda os cards que são tarefas respectivamente|Eu como programador gostaria de criar boards personalizados, para facilitar a organização das minhas tarefas.      |
 | Excluir board  |                                                                     |                                                                                                                   |
 | Criar Card     |Criação do card de uma tarefa sobre respectivo programador           |Para facilitar melhorar minha produtividade como programador gostaria de poder criar cards pra me organizar melhor.|
