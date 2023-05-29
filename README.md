@@ -77,3 +77,14 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 | Mover C.   | CE   |    |       | MÉDIA        |
 | Excluir C. | CE   |    |       | BAIXA        |
 
+# Classes de dominio
+
+| Nome da Classe  | Descrição| História |
+|----------------:|---------:|:--------:|
+|                 |          |          |
+|                 |          |          |
+|                 |          |          |
+|                 |          |          |            
+|                 |          |          |
+|                 |          |          |
+|                 |          |          |
