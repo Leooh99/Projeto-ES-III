@@ -31,9 +31,9 @@ O projeto foi elaborado durante as aulas de Egenharia de Software na PUC Minas, 
 ![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/62e34879-51e0-4bc6-a1c9-8ca24d4ea48e)
 ## Criação do card
 ![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/f7e54bc2-775f-40b7-88b3-52debba90974)
-## Criação da movimentção dos card's
-![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/6a238762-85b5-4156-8105-e741667014a7)
 ## Edição do card
+![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/6a238762-85b5-4156-8105-e741667014a7)
+## Movimentação card
 ![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/0d24fddf-0a10-44c3-b3fd-3fbbd500dc23)
 
 
@@ -80,7 +80,7 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 # Classes de dominio
 
 | Nome da Classe | Descrição                                                           | História                                                                                                                    |
-|:--------------:|:-------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
+|:--------------:|:-------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
 | Criar board    |Criação da board que acomoda os cards que são tarefas respectivamente|Eu como programador gostaria de criar boards personalizados, para facilitar a organização das minhas tarefas.                |
 | Excluir board  |Excluir uma board, que é onde as tarefas são anexadas                |                                                                                                                             |
 | Criar Card     |Criação do card de uma tarefa sobre respectivo programador           |Para facilitar melhorar minha produtividade como programador gostaria de poder criar cards pra me organizar melhor.          |
@@ -89,10 +89,42 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 
 # Testes de equivalência
 
-| Wiframe                           | Teste | Valor |
-|:---------------------------------:|:-----:|:-----:|
-| Autenticação do autor             |       |       |
-| Criação do board                  |       |       |
-| Criação do card                   |       |       |
-| Criação da movimentção dos card's |       |       |             
-| Edição do card                    |       |       |
+| Wiframe                           |
+|:---------------------------------:|
+| Autenticação do autor             |
+| Criação do board                  |
+| Criação do card                   |
+| Criação da movimentação dos card's|           
+| Edição do card                    |
+
+* Autenticação do autor
+Entrada: email cadastrado |Senha: correta   -> Autenticado
+Entrada: email cadastrado |Senha: incorreta -> Negado
+Entrada: email n cadas... |Senha: n existe  -> Negado
+
+* Criação do board 
+Entrada: Nome board |Clica criar -> Cria board
+Entrada: Nome board |Clica X     -> Não cria board
+Entrada: Vazio      |Clica X     -> Não cria board
+Entrada: Vazio      |Clica criar -> Não cria board
+
+* Criação do card 
+Entrada: Nome card|Clica criar -> Cria card
+Entrada: Vazio    |Clica criar -> Não cria card
+Entrada: Vazio    |Clica no X  -> Não cria card
+Entrada Nome card |Clica no X  -> Não cria card 
+
+* Criação da movimentação dos card's
+Entrada: Pega card  | Joga card em outra board -> Movimenta card
+Entrada: Pega card  | Não movimenta o card     -> Não movimenta o card
+Entrada: N pega card| Movimenta                -> Não movimenta o card
+Entrada: Pega card  | Joga card na mesma board -> Não moviemnta o card
+
+* Edição do card
+titulo muda  | muda   descrição | muda label | muda task | salvar -> Card editado
+titulo N muda| muda   descrição | muda label | muda task | salvar -> Card editado
+titulo N muda| muda N descrição | muda label | muda task | salvar -> Card editado
+.....
+..... 
+.....
+* Tudo edita um card, se for clicado em salvar 
