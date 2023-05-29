@@ -61,8 +61,8 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 * nome da board, nome da outra board, [comando]
 * Arquivo: Card
 
-### Excluir Card
-* nome da board, mensagens,[comando]
+### Editar Card
+* nome do card,[comando]
 * Arquivo: Card
 
 # Identificação e classificação das funcionalidades
@@ -75,14 +75,24 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 | Excluir B. | CE   |    |       | BAIXA        |             
 | Criar C.   | EE   |    |       | MÉDIA        |
 | Mover C.   | CE   |    |       | MÉDIA        |
-| Excluir C. | CE   |    |       | BAIXA        |
+| Editar C.  | CE   |    |       | BAIXA        |
 
 # Classes de dominio
 
 | Nome da Classe | Descrição                                                           | História                                                                                                                    |
-|:--------------:|:--------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
+|:--------------:|:-------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
 | Criar board    |Criação da board que acomoda os cards que são tarefas respectivamente|Eu como programador gostaria de criar boards personalizados, para facilitar a organização das minhas tarefas.                |
 | Excluir board  |Excluir uma board, que é onde as tarefas são anexadas                |                                                                                                                             |
 | Criar Card     |Criação do card de uma tarefa sobre respectivo programador           |Para facilitar melhorar minha produtividade como programador gostaria de poder criar cards pra me organizar melhor.          |
 | Mover Card     |Movimentação dos cards entre as boards para alterar o status do card |Para melhorar o requisito de edição gostaria de movimentar os cards pela board.                                              |      
-| Excluir Card   |Exclusão de um card colocado por acidente ou que não seja mais ne... |Afim de otimizar a minha organização gostaria de poder editar os cards, que facilitaria muito minha vida como um programador.|
+| Editar Card    |Exclusão de um card colocado por acidente ou que não seja mais ne... |Afim de otimizar a minha organização gostaria de poder editar os cards, que facilitaria muito minha vida como um programador.|
+
+# Testes de equivalência
+
+| Waiframe                          | Teste | Valor |
+|:---------------------------------:|:-----:|:-----:|
+| Autenticação do autor             |       |       |
+| Criação do board                  |       |       |
+| Criação do card                   |       |       |
+| Criação da movimentção dos card's |       |       |             
+| Edição do card                    |       |       |
