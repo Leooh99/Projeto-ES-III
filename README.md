@@ -25,6 +25,7 @@ O projeto foi elaborado durante as aulas de Egenharia de Software na PUC Minas, 
 * Pedro Henrique Ronchini
 
 # Wiframes baseados nas historias
+[Figma - Wireframes Completo](https://www.figma.com/file/rGY6m3p8qBt9tBS18eAw1G/Kanban?type=design&node-id=0%3A1&t=ZBBhgjPlBXtyDx8k-1)
 ## Autenticação do autor
 ![image](https://github.com/mayconbr/engenhariaIII/assets/65423721/de5b8546-1f25-4ec8-b81b-83cfd518697c)
 ## Criação do board
