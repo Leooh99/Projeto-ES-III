@@ -5,35 +5,35 @@ import {
   getUserById,
   getUsers,
   updateUser
-} from './src/controllers/userController';
+} from '../src/controllers/userController';
 import {
   createCard,
   deleteCard,
   getCardById,
   getCards,
   updateCard
-} from './src/controllers/cardController';
+} from '../src/controllers/cardController';
 import {
   createBoard,
   deleteBoardById,
   getBoardById,
   getBoards,
   updateBoardById
-} from './src/controllers/boardController';
+} from '../src/controllers/boardController';
 import {
   deleteTasksById,
   getTasksById,
   getTasks,
   updateTaskById,
   createTask
-} from './src/controllers/tasksController';
+} from '../src/controllers/tasksController';
 import {
   createLabel,
   deleteLabelById,
   getLabelById,
   getLabel,
   updateLabelById
-} from './src/controllers/labelController';
+} from '../src/controllers/labelController';
 
 const router = express.Router();
 
