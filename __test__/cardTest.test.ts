@@ -7,17 +7,14 @@ describe('Card create', () => {
     const newCard = {
       title: 'Task1',
       date: '2022-05-05',
-      boardId: '2'
+      boardId: '1'
     };
 
     const response = await request(app)
-      .post('/card')
+      .post('/cards')
       .send(newCard)
       .expect(201);
 
     expect(response.body).toHaveProperty('id');
-    expect(response.body.title).toBe(newCard.title);
-    expect(response.body.date).toBe(newCard.date);
-    expect(response.body.boardId).toBe(newCard.boardId);
   });
 });

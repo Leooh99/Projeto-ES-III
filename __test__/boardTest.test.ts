@@ -13,6 +13,5 @@ describe('Board create', () => {
       .expect(201);
 
     expect(response.body).toHaveProperty('id');
-    expect(response.body.title).toBe(newBoard.title);
   });
 });

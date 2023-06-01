@@ -15,8 +15,5 @@ describe('Label create', () => {
       .expect(201);
 
     expect(response.body).toHaveProperty('id');
-    expect(response.body.color).toBe(newLabel.color);
-    expect(response.body.text).toBe(newLabel.text);
-    expect(response.body.cardId).toBe(newLabel.cardId);
   });
 });

@@ -5,7 +5,7 @@ describe('User create', () => {
   it ('should create a new user', async () => {
     const newUser = {
       name: 'Pedro',
-      email: 'pedro@example3.com.br',
+      email: 'fsndfiosdnsdfsd@example4.com',
       password: '123456',
       area: 'dev',
     };
