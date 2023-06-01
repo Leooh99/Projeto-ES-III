@@ -11,17 +11,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    services:
-      mysql:
-        image: mysql:latest
-        env:
-          MYSQL_ROOT_PASSWORD: root
-          MYSQL_DATABASE: workflow
-        ports:
-          - 3306:3306
-        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
-
     steps:
+      - name: Set up MYSQL
+      uses: mirromutth/mysql-action@v1.1
+      with:
+        mysql database: 'workflow'
+        mysql root password: 'root'
+
       - name: Checkout from repository
         uses: actions/checkout@v3
 
