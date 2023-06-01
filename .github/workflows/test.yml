@@ -15,6 +15,7 @@ jobs:
       mysql:
         image: mysql:latest
         env:
+          MYSQL_ALLOW_EMPTY_PASSWORD: 
           MYSQL_DATABASE: workflow
         ports:
           - 3306:3306
