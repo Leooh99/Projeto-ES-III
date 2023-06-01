@@ -12,11 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up MYSQL
-      uses: mirromutth/mysql-action@v1.1
-      with:
-        mysql database: 'workflow'
-        mysql root password: 'root'
+      
 
       - name: Checkout from repository
         uses: actions/checkout@v3
@@ -25,6 +21,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "16.14.0"
+
+      - name: Set up MYSQL
+      uses: mirromutth/mysql-action@v1.1
+      with:
+        mysql database: 'workflow'
+        mysql root password: 'root'
 
       - name: Install package deps
         run: npm install
