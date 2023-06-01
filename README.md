@@ -98,34 +98,70 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 | Criação da movimentação dos card's|           
 | Edição do card                    |
 
-### Autenticação do autor
-* Entrada: email cadastrado |Senha: correta   -> Autenticado
-* Entrada: email cadastrado |Senha: incorreta -> Negado
-* Entrada: email n cadas... |Senha: n existe  -> Negado
+/////////////////////////////
 
-### Criação do board 
-* Entrada: Nome board |Clica criar -> Cria board
-* Entrada: Nome board |Clica X     -> Não cria board
-* Entrada: Vazio      |Clica X     -> Não cria board
-* Entrada: Vazio      |Clica criar -> Não cria board
+#Roteiro para etapa Autenticação do autor
+Campo testado (E-MAIL)
+| Caso de Teste |       Entrada       |   Saída Esperada  |
+|       C1      |     E-mail válido   |     Autenticado   |
+|       C2      |    E-mail inválido  |   E-mail inválido |
+|       C3      |     E-mail vazio    |   E-mail inválido |
 
-### Criação do card 
-* Entrada: Nome card|Clica criar -> Cria card
-* Entrada: Vazio    |Clica criar -> Não cria card
-* Entrada: Vazio    |Clica no X  -> Não cria card
-* Entrada Nome card |Clica no X  -> Não cria card 
+Campo testado (SENHA)
+| Caso de Teste |       Entrada       |   Saída Esperada |
+|       C1      |     Senha válida    |    Autenticado   |
+|       C2      |    Senha inválida   |   Senha inválida |
+|       C3      |     Senha vazia     |   Senha inválida |
 
-### Criação da movimentação dos card's
-* Entrada: Pega card  | Joga card em outra board -> Movimenta card
-* Entrada: Pega card  | Não movimenta o card     -> Não movimenta o card
-* Entrada: N pega card| Movimenta                -> Não movimenta o card
-* Entrada: Pega card  | Joga card na mesma board -> Não moviemnta o card
 
-### Edição do card
-* Entrada: titulo muda  | muda   descrição | muda label | muda task | salvar -> Card editado
-* Entrada: titulo N muda| muda   descrição | muda label | muda task | salvar -> Card editado
-* Entrada: titulo N muda| muda N descrição | muda label | muda task | salvar -> Card editado
-* Entrada: .....
-* Entrada: ..... 
-* Entrada: .....
-* Tudo edita um card, se for clicado em salvar.
+#Roteiro para etapa Ciação do board
+Campo testado (NOME)
+| Caso de Teste |       Entrada       |        Saída Esperada          |
+|       C1      |    Nome da board    |         Boad criada            |
+|       C2      |     Nome vazio      |  Insira uma nome para o board  |
+
+
+#Roteiro para etapa criação do card
+Campo testado (TÍTULO DO CARD)
+| Caso de Teste |       Entrada       |         Saída Esperada            |
+|       C1      |     Nome do card    |          Cria card                |
+|       C2      |      Nome Vazio     |   É necessário indicar um título  |
+
+
+#Roteiro para a movimentação dos card's
+(PEGA O CARD)
+| Caso de Teste |             Entrada             |     Saída Esperada        |
+|       C1      |     Joga card em outra board    |     Movimenta card        |
+|       C2      |     Joga card na mesma board    |    Não moviemnta o card   |
+
+
+#Roteiro para etapa edição do card
+Campo testado (TÍTULO)
+| Caso de Teste |       Entrada      |            Saída Esperada               |
+|      C1       |     Título muda    |             Card editado                |
+|      C2       |     Título vazio   |   É necessário indicar um novo título   |
+
+
+Campo testado (DESCRIÇÃO)
+| Caso de Teste |       Entrada        |               Saída Esperada                |
+|       C1      |    Descrição muda    |                Card editado                 |
+|       C2      |    Descrição vazia   |   É necessário indicar uma nova descrição   |
+
+
+Campo testado (DATA)
+|Caso de Teste |             Entrada           |     Saída Esperada        |
+|      C1      |            Data muda          |      Card editado         |
+|      C2      |      Data menor que a atual   |  Digite uma data válida   |
+
+
+Campo testado (LABELS)
+|Caso de Teste |       Entrada       |   Saída Esperada   |
+|      C1      |      Label muda     |    Card editado    |
+|      C2      |     Label não muda  |    Card editado    |
+
+
+Campo testado (TASKS)
+|Caso de Teste |       Entrada         |             Saída Esperada                |
+|      C1      |      Task muda        |              Card editado                 |
+|      C2      |     Task não muda     |   É necessário indicar uma nova task      |
+
