@@ -68,15 +68,23 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 
 # Identificação e classificação das funcionalidades
 
-| Descrição  | Tipo | TD | AR/TR | Complexidade |
-|:----------:|:----:|:--:|:-----:|:------------:|
-| Pessoa     | AIE  |    |       | BAIXA        |
-| Login      | SE   |    |       | BAIXA        |
-| Criar B.   | EE   |    |       | BAIXA        |
-| Excluir B. | CE   |    |       | BAIXA        |             
-| Criar C.   | EE   |    |       | MÉDIA        |
-| Mover C.   | CE   |    |       | MÉDIA        |
-| Editar C.  | CE   |    |       | BAIXA        |
+| Descrição  | Tipo | TD  | AR/TR | Complexidade |
+|:----------:|:----:|:---:|:-----:|:------------:|
+| Pessoa     | AIE  |  4  |   1    | BAIXA - 5   |
+| Login      | SE   |  3  |   1    | BAIXA - 4   |
+| Criar B.   | ALI  |  3  |   1    | BAIXA - 7   |
+| Excluir B. | EE   |  3  |   1    | BAIXA - 3   |             
+| Criar C.   | ALI  |  5  |   1    | MÉDIA - 7   |
+| Mover C.   | EE   |  3  |   1    | MÉDIA - 3   |
+| Editar C.  | EE   |  2  |   1    | BAIXA - 3   |
+
+|Função/ Arquivo | Complexidade | Ocorrências | Peso  | Resultado |
+|:--------------:|:------------:|:-----------:|:-----:|:---------:|
+| EE             | Baixa        |      3      |   3   |     9     |
+| SE             | Baixa        |      1      |   4   |     4     |
+| ALI            | Baixa        |      2      |   7   |    14     |
+| AIE            | Baixa        |      1      |   5   |     5     |
+### Total                                              ### 32
 
 # Classes de dominio
 
