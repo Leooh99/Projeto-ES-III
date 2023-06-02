@@ -38,9 +38,6 @@ jobs:
 
       - name: Configure the Prisma environment
         run: npx prisma generate
-      
-      - name: Run prisma migrate
-        run: npx prisma migrate dev --name initial-migration
 
       - name: Run tests
         run: npm test
