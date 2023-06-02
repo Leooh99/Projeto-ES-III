@@ -84,7 +84,7 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 | SE             | Baixa        |      1      |   4   |     4     |
 | ALI            | Baixa        |      2      |   7   |    14     |
 | AIE            | Baixa        |      1      |   5   |     5     |
-### Total                                              ### 32
+### Total                                                  32     
 
 # Classes de dominio
 
