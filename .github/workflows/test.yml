@@ -26,7 +26,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: verify MySQL connection from host
-        run: mysql --host 127.0.0.1 --port 3306 -uroot -p -e'CREATE DATABASE IF NOT EXISTS workflow'
+        run: mysql --host 127.0.0.1 --port 3306 -uroot -proot -e'CREATE DATABASE IF NOT EXISTS workflow'
 
       - name: Set up NodeJS
         uses: actions/setup-node@v3
