@@ -77,8 +77,8 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 | Login      | SE   |  3  |   1    | BAIXA - 4   |
 | Criar B.   | ALI  |  3  |   1    | BAIXA - 7   |
 | Excluir B. | EE   |  3  |   1    | BAIXA - 3   |             
-| Criar C.   | ALI  |  5  |   1    | MÉDIA - 7   |
-| Mover C.   | EE   |  3  |   1    | MÉDIA - 3   |
+| Criar C.   | ALI  |  5  |   1    | BAIXA - 7   |
+| Mover C.   | EE   |  3  |   1    | BAIXA - 3   |
 | Editar C.  | EE   |  2  |   1    | BAIXA - 3   |
 
 |Função/ Arquivo | Complexidade | Ocorrências | Peso  | Resultado |
