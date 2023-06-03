@@ -107,7 +107,6 @@ Consiste no meio para medição do tamanho de software em termos da visão do us
 | Criação da movimentação dos card's|           
 | Edição do card                    |
 
-/////////////////////////////
 
 ## Roteiro para etapa Autenticação do autor
 
