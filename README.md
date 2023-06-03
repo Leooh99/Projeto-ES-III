@@ -24,6 +24,9 @@ O projeto foi elaborado durante as aulas de Egenharia de Software na PUC Minas, 
 * Maycon Brandão Bruzolato
 * Pedro Henrique Ronchini
 
+# Link da apresentação
+https://www.youtube.com/watch?v=0b6zJfXNxVA
+
 # Wiframes baseados nas historias
 [Figma - Wireframes Completo](https://www.figma.com/file/rGY6m3p8qBt9tBS18eAw1G/Kanban?type=design&node-id=0%3A1&t=ZBBhgjPlBXtyDx8k-1)
 ## Autenticação do autor
